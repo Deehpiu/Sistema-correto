@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Cadastro de Doadores de Sangue</title>
+</head>
+<body>
+  <h1>===== SISTEMA DE CADASTRO DE DOADORES DE SANGUE =====</h1>
+  <label for="opcoes">Escolha uma opção:</label>
+  <select id="opcoes">
+    <option value="cadastrar">1. Cadastrar doador</option>
+    <option value="listar">2. Listar doadores</option>
+    <option value="buscarTipo">3. Buscar doador por tipo sanguíneo</option>
+    <option value="buscarData">4. Buscar doador por data da última doação</option>
+    <option value="sair">5. Sair</option>
+  </select>
+  <button onclick="executarAcao()">Executar</button>
+  <div id="resultado"></div>
+  <script src="cadastroDoador.js"></script>
+</body>
+</html>
